@@ -21,7 +21,7 @@ public class Note {
         this.name=name;
     }
 
-    public String talk;
+    public String talk()
     {
         String info;
         info="6666"+this.getName();
