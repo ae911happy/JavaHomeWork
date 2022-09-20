@@ -1,8 +1,27 @@
-package NOte;
+package Note0920;
 
-public class Note {
+public class Person {
     private String name;
     private int age;
+
+    public Person()
+    {
+        System.out.println("Person");
+    }
+
+    public Person(String name)
+    {
+        this();
+        System.out.println("有参Person");
+        this.setName(name);
+    }
+
+    public  Person(String name,int age)
+    {
+        this(name);
+        System.out.println("双参Person");
+    }
+
 
     public String getName() {
         return name;
