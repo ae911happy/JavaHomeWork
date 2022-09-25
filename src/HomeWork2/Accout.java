@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Accout {
     String name,date,Accout;
-    int passport;
-    double money;
+    int passport=123456;
+    double money=0.00;
 
     public Accout(String name, String date, String accout, int passport, double money) {
         this.name = name;
@@ -47,18 +47,13 @@ public class Accout {
         return date;
     }
 
-    public double ChaMoney()
-    {
-        return money;
-    }
-
     //测试类
-    public static void main(String[] args) {
-        Accout a = new Accout("sb","2022","bfhadjsfgydsvgydf",123456,88.8);
-        System.out.println(a.money);
-        Scanner sc=new Scanner(System.in);
-        double money= sc.nextDouble();
-        a.CunQian(money);
-        System.out.println(a.money);
-    }
+//    public static void main(String[] args) {
+//        Accout a = new Accout("sb","2022","bfhadjsfgydsvgydf",123456,88.8);
+//        System.out.println(a.money);
+//        Scanner sc=new Scanner(System.in);
+//        double money= sc.nextDouble();
+//        a.CunQian(money);
+//        System.out.println(a.money);
+//    }
 }
