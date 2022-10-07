@@ -1,4 +1,4 @@
-package com.lgy.JavaHomeWork1;
+package HomeWork1;
 
 public class JavaHomeWork3 {
     public static void main(String[] args) {
