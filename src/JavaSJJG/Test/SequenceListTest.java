@@ -1,6 +1,6 @@
 package JavaSJJG.Test;
 
-import JavaSJJG.SequenceList;
+import JavaSJJG.linear.SequenceList;
 
 public class SequenceListTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JavaSJJG;
+package JavaSJJG.linear;
 
 public class SequenceList <T> {
     //存储元素的数组
