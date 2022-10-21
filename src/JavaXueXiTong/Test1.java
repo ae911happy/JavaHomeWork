@@ -16,10 +16,8 @@ public class Test1 {
             for (int i = 0; i < 20; i++) {
                 randomAccessFile.write(i);
             }
-            byte[] b = new byte[(int)randomAccessFile.length()];
-            randomAccessFile.seek(11);
+            randomAccessFile.seek(3);
             int sum = 0;
-            int a = 4;
             for (int i = 0; i <= 8; i++) {
                 sum += randomAccessFile.read();
             }
